@@ -52,7 +52,13 @@ export default function Page() {
         <div className="eyebrow">Independent thinker / builder / learner</div>
         <h1>Making sense of<br /><em>what&apos;s next.</em></h1>
         <div className="hero-bottom">
-          <p className="hero-intro">I&apos;m Ishan Jain, a curious mind working at the intersection of ideas, design, technology, and impact.</p>
+          <div className="hero-profile">
+            <figure className="profile-frame">
+              <img className="profile-image" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-907B74E0-xFRNG3Km2dNGvI2VLgu8tv25giXQrx.jpeg" alt="Ishan Jain in a navy suit, white shirt, and red tie" />
+              <figcaption>Founder / independent builder</figcaption>
+            </figure>
+            <p className="hero-intro">I&apos;m Ishan Jain, a curious mind working at the intersection of ideas, design, technology, and impact.</p>
+          </div>
           <a className="circle-link" href="#about" aria-label="Scroll to about section">↓</a>
         </div>
         <div className="hero-mark" aria-hidden="true">+</div>
