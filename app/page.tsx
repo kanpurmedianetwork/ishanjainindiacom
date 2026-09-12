@@ -6,6 +6,7 @@ const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Work', href: '#work' },
   { label: 'Writing', href: '#writing' },
+  { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -27,8 +28,33 @@ const projects = [
 ]
 
 const writing = [
-  { date: 'Research paper', title: 'Designing for meaningful change', text: 'A paper on the relationship between systems, people, and the future we choose to build.', href: 'https://scholar.google.com/' },
+  { date: 'Published research · IJSREM · Feb 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: 'An accessible study of quantum transitions, atomic clocks, relativity corrections, and the precision timing that makes modern GPS possible. DOI: 10.55041/IJSREM56653.', href: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20Published%20Paper-74D26925-lsF329E1zZkG274Wyhl4r5QCL5Cj8s.pdf' },
+  { date: 'Research paper · Secondary data analysis · 2009–2026', title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit?", text: "An analysis of whether higher gold customs duties reduce India's recorded current account deficit or shift the deficit into informal channels, with policy recommendations on smuggling, gold monetization, and financial inclusion.", href: '/research-paper-gold-duty.pdf' },
   { date: 'Field notes', title: 'Learning in public', text: 'Notes from working across design, technology, and the questions that sit between them.', href: '#contact' },
+]
+
+const community = {
+  title: 'Education & mentorship volunteer',
+  organization: 'Rooh Foundation',
+  detail: 'Long-term volunteer mentor supporting underprivileged children through thoughtful lessons, continuity, and relationship-led learning · 2023–2026',
+  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-F86AE9F1-pPLgqG4kQZvEXDwyCKXnfdB63vM38X.jpeg',
+}
+
+const internships = [
+  { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Coding, debugging, and software development support · May–June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6E03EB9A-G9bW7jTBTBJCrLZ3J2N8rr12P8F0Z8.jpeg' },
+  { title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' },
+  { title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
+  { title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' },
+]
+
+const gallery = [
+  { title: 'A journey with people', detail: 'Travel, family, and shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-95748E2B-7BgQjDMNezPWl7nS6ytf84syoYJpCA.jpeg' },
+  { title: 'On the way', detail: 'A quiet moment between destinations', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-9A17D64D-JJ2GmUA0acRueReeRz8f3BXldVR6e4.jpeg' },
+  { title: 'Learning across cultures', detail: 'Community, exchange, and new perspectives', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-E1C4CFBE-yP5Py2J1cLKl3JjksNDzkek4j1Enlp.jpeg' },
+  { title: 'Curiosity in motion', detail: 'Exploring places and finding the story in them', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-BC83DA83-5SpBajf4tbeTdpfepCMYoiRGKD2Er5.jpeg' },
+  { title: 'A shared experience', detail: 'The people and places that shape the journey', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6C227CFE-gRi3g01qH9N3v7h4HNqazkW5IRLSYQ.jpeg' },
+  { title: 'Arrivals and new beginnings', detail: 'A team, a destination, and a moment to remember', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-4837ED80-efGWmwWbSwDXd4p3oatqeM3Xt7M1nS.jpeg' },
+  { title: 'Golf Junior USA', detail: 'Under 12 · Sport, focus, and early ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
 ]
 
 export default function Page() {
@@ -95,7 +121,35 @@ export default function Page() {
         <div className="writing-list">{writing.map((item) => <a className="writing-item" href={item.href} key={item.title}><div><span className="writing-date">{item.date}</span><h3>{item.title}</h3></div><p>{item.text}</p><span className="writing-arrow">↗</span></a>)}</div>
       </section>
 
-      <section className="opportunity section-shell"><div className="section-label">Also / 04</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:hello@ishanjainindia.com">Let&apos;s talk <span>↗</span></a></div></div></section>
+      <section id="internships" className="internships section-shell section-rule">
+        <div className="section-label">Internships / 04</div>
+        <div className="section-heading-row"><h2>Learning by<br /><span>doing.</span></h2><p>Practical experiences across technology, manufacturing, finance, and sustainable energy.</p></div>
+        <div className="internship-grid">{internships.map((item) => <article className="internship-card" key={item.organization}><div className="internship-image-wrap"><img src={item.image} alt={`${item.organization} internship certificate`} /><span className="internship-index">Certificate</span></div><div className="internship-card-copy"><span className="writing-date">{item.organization}</span><h3>{item.title}</h3><p>{item.detail}</p></div></article>)}</div>
+      </section>
+
+      <section id="community" className="community section-shell section-rule">
+        <div className="section-label">Community / 05</div>
+        <div className="community-feature">
+          <div className="community-copy">
+            <span className="writing-date">Rooh Foundation · 2023–2026</span>
+            <h2>Showing up<br /><span>with purpose.</span></h2>
+            <h3>{community.title}</h3>
+            <p>{community.detail}</p>
+          </div>
+          <figure className="community-proof">
+            <img src={community.image} alt="Recommendation letter from Rooh Foundation recognizing Ishan Jain's volunteer mentorship" />
+            <figcaption>Community recommendation · Rooh Foundation · May 2026</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="gallery" className="gallery section-shell section-rule">
+        <div className="section-label">Gallery / 06</div>
+        <div className="section-heading-row"><h2>Life in<br /><span>frames.</span></h2><p>A visual record of the people, places, and shared experiences that continue to shape the journey.</p></div>
+        <div className="gallery-grid">{gallery.map((item, index) => <figure className={`gallery-card gallery-card-${index + 1}`} key={item.title}><div className="gallery-image-wrap"><img src={item.image} alt={item.title} loading="lazy" /></div><figcaption><strong>{item.title}</strong><span>{item.detail}</span></figcaption></figure>)}</div>
+      </section>
+
+      <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:hello@ishanjainindia.com">Let&apos;s talk <span>↗</span></a></div></div></section>
 
       <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><a className="footer-email" href="mailto:hello@ishanjainindia.com">hello@ishanjainindia.com <span>↗</span></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
