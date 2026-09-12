@@ -28,7 +28,7 @@ const projects = [
 ]
 
 const writing = [
-  { date: 'Research paper', title: 'Designing for meaningful change', text: 'A paper on the relationship between systems, people, and the future we choose to build.', href: 'https://scholar.google.com/' },
+  { date: 'Published research · IJSREM · Feb 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: 'An accessible study of quantum transitions, atomic clocks, relativity corrections, and the precision timing that makes modern GPS possible. DOI: 10.55041/IJSREM56653.', href: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20Published%20Paper-74D26925-lsF329E1zZkG274Wyhl4r5QCL5Cj8s.pdf' },
   { date: 'Field notes', title: 'Learning in public', text: 'Notes from working across design, technology, and the questions that sit between them.', href: '#contact' },
 ]
 
