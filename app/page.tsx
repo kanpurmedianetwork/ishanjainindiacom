@@ -83,7 +83,7 @@ export default function Page() {
               <img className="profile-image" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-C4EC11BD-cislAJJHHl0MgIVK1BprBCd0oZijHV.jpeg" alt="Professional portrait of Ishan Jain in a navy suit and red tie" />
               <figcaption>Founder / independent builder</figcaption>
             </figure>
-            <p className="hero-intro">I&apos;m Ishan Jain, a curious mind working at the intersection of ideas, design, technology, and impact.</p>
+            <div className="hero-copy"><p className="hero-intro">Hi, I&apos;m <strong>Ishan Jain</strong>.</p><p className="hero-subintro">A curious mind working at the intersection of ideas, design, technology, and impact.</p></div>
             <div className="hero-contact" aria-label="Contact information">
               <a href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com</a>
               <a href="tel:+919001113380">+91 90011 13380</a>
