@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Ishan Jain — Making sense of what’s next',
   description: 'The personal portfolio, research, and selected work of Ishan Jain.',
   generator: 'v0.app',
-  icons: { icon: '/ij-logo.svg', apple: '/ij-logo.svg' },
+  icons: { icon: '/ij-logo-provided.jpeg', apple: '/ij-logo-provided.jpeg' },
 }
 
 export const viewport: Viewport = {
