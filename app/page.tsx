@@ -29,6 +29,7 @@ const projects = [
 
 const writing = [
   { date: 'Published research · IJSREM · Feb 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: 'An accessible study of quantum transitions, atomic clocks, relativity corrections, and the precision timing that makes modern GPS possible. DOI: 10.55041/IJSREM56653.', href: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20Published%20Paper-74D26925-lsF329E1zZkG274Wyhl4r5QCL5Cj8s.pdf' },
+  { date: 'Research paper · Secondary data analysis · 2009–2026', title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit?", text: "An analysis of whether higher gold customs duties reduce India's recorded current account deficit or shift the deficit into informal channels, with policy recommendations on smuggling, gold monetization, and financial inclusion.", href: '/research-paper-gold-duty.pdf' },
   { date: 'Field notes', title: 'Learning in public', text: 'Notes from working across design, technology, and the questions that sit between them.', href: '#contact' },
 ]
 
