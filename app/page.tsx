@@ -31,6 +31,13 @@ const writing = [
   { date: 'Field notes', title: 'Learning in public', text: 'Notes from working across design, technology, and the questions that sit between them.', href: '#contact' },
 ]
 
+const internships = [
+  { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Coding, debugging, and software development support · May–June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6E03EB9A-G9bW7jTBTBJCrLZ3J2N8rr12P8F0Z8.jpeg' },
+  { title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' },
+  { title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
+  { title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' },
+]
+
 export default function Page() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [expanded, setExpanded] = useState(false)
@@ -95,7 +102,13 @@ export default function Page() {
         <div className="writing-list">{writing.map((item) => <a className="writing-item" href={item.href} key={item.title}><div><span className="writing-date">{item.date}</span><h3>{item.title}</h3></div><p>{item.text}</p><span className="writing-arrow">↗</span></a>)}</div>
       </section>
 
-      <section className="opportunity section-shell"><div className="section-label">Also / 04</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:hello@ishanjainindia.com">Let&apos;s talk <span>↗</span></a></div></div></section>
+      <section id="internships" className="internships section-shell section-rule">
+        <div className="section-label">Internships / 04</div>
+        <div className="section-heading-row"><h2>Learning by<br /><span>doing.</span></h2><p>Practical experiences across technology, manufacturing, finance, and sustainable energy.</p></div>
+        <div className="internship-grid">{internships.map((item) => <article className="internship-card" key={item.organization}><div className="internship-image-wrap"><img src={item.image} alt={`${item.organization} internship certificate`} /><span className="internship-index">Certificate</span></div><div className="internship-card-copy"><span className="writing-date">{item.organization}</span><h3>{item.title}</h3><p>{item.detail}</p></div></article>)}</div>
+      </section>
+
+      <section className="opportunity section-shell"><div className="section-label">Also / 05</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:hello@ishanjainindia.com">Let&apos;s talk <span>↗</span></a></div></div></section>
 
       <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><a className="footer-email" href="mailto:hello@ishanjainindia.com">hello@ishanjainindia.com <span>↗</span></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
