@@ -84,6 +84,10 @@ export default function Page() {
               <figcaption>Founder / independent builder</figcaption>
             </figure>
             <p className="hero-intro">I&apos;m Ishan Jain, a curious mind working at the intersection of ideas, design, technology, and impact.</p>
+            <div className="hero-contact" aria-label="Contact information">
+              <a href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com</a>
+              <a href="tel:+919001113380">+91 90011 13380</a>
+            </div>
           </div>
           <a className="circle-link" href="#about" aria-label="Scroll to about section">↓</a>
         </div>
@@ -151,7 +155,7 @@ export default function Page() {
 
       <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:aurexishanjain@gmail.com">Let&apos;s talk <span>↗</span></a></div></div></section>
 
-      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><a className="footer-email" href="mailto:aurexishanjain@gmail.com">hello@ishanjainindia.com <span>↗</span></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
+      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><div className="footer-contact"><a className="footer-email" href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com <span>↗</span></a><a className="footer-phone" href="tel:+919001113380">+91 90011 13380</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
   )
 }
