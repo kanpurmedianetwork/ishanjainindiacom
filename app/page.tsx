@@ -70,7 +70,7 @@ export default function Page() {
         </button>
         <nav id="site-nav" className={menuOpen ? 'site-nav is-open' : 'site-nav'} aria-label="Main navigation">
           {navItems.map((item) => <a key={item.label} href={item.href} onClick={() => setMenuOpen(false)}>{item.label}</a>)}
-          <a className="nav-arrow" href="mailto:aurexishanjain@gmail.com" aria-label="Email Ishan">↗</a>
+          <a className="nav-arrow" href="mailto:aurexishanjain@gmail.com" aria-label="Email Ishan">↗︎</a>
         </nav>
       </header>
 
@@ -97,7 +97,7 @@ export default function Page() {
           <div className="about-copy">
             <p>I believe the most interesting work happens when disciplines overlap. My practice moves between research, storytelling, strategy, and making — always with a focus on the human side of progress.</p>
             {expanded && <p>I&apos;m interested in the questions that do not have easy answers: how can technology feel more humane? How can design help us see a problem differently? How do we create a future that is useful, equitable, and full of possibility?</p>}
-            <button className="text-button" type="button" onClick={() => setExpanded(!expanded)}>{expanded ? 'Read less' : 'Read more'} <span>↗</span></button>
+            <button className="text-button" type="button" onClick={() => setExpanded(!expanded)}>{expanded ? 'Read less' : 'Read more'} <span>↗︎</span></button>
           </div>
         </div>
       </section>
@@ -111,14 +111,14 @@ export default function Page() {
         <div className="section-label">Selected work / 02</div>
         <div className="section-heading-row"><h2>Ideas into<br /><span>action.</span></h2><p>Projects, experiments, and collaborations that have shaped how I think and work.</p></div>
         <div className="project-grid">
-          {projects.map((project) => <article className="project-card" key={project.title}><div className="project-top"><span>{project.number}</span><span>{project.tag}</span></div><div className="project-visual"><div className="visual-cross">+</div><span>{project.title}</span></div><div className="project-info"><h3>{project.title}</h3><p className="project-type">{project.type}</p><p>{project.text}</p><a href="#contact" className="inline-link">Explore project <span>↗</span></a></div></article>)}
+          {projects.map((project) => <article className="project-card" key={project.title}><div className="project-top"><span>{project.number}</span><span>{project.tag}</span></div><div className="project-visual"><div className="visual-cross">+</div><span>{project.title}</span></div><div className="project-info"><h3>{project.title}</h3><p className="project-type">{project.type}</p><p>{project.text}</p><a href="#contact" className="inline-link">Explore project <span>↗︎</span></a></div></article>)}
         </div>
       </section>
 
       <section id="writing" className="writing section-shell section-rule">
         <div className="section-label">Writing / 03</div>
         <div className="section-heading-row"><h2>Thoughts worth<br /><span>sharing.</span></h2><p>Research, reflections, and observations from an ongoing practice.</p></div>
-        <div className="writing-list">{writing.map((item) => <a className="writing-item" href={item.href} key={item.title}><div><span className="writing-date">{item.date}</span><h3>{item.title}</h3></div><p>{item.text}</p><span className="writing-arrow">↗</span></a>)}</div>
+        <div className="writing-list">{writing.map((item) => <a className="writing-item" href={item.href} key={item.title}><div><span className="writing-date">{item.date}</span><h3>{item.title}</h3></div><p>{item.text}</p><span className="writing-arrow">↗︎</span></a>)}</div>
       </section>
 
       <section id="internships" className="internships section-shell section-rule">
@@ -149,9 +149,9 @@ export default function Page() {
         <div className="gallery-grid">{gallery.map((item, index) => <figure className={`gallery-card gallery-card-${index + 1}`} key={item.title}><div className="gallery-image-wrap"><img src={item.image} alt={item.title} loading="lazy" /></div><figcaption><strong>{item.title}</strong><span>{item.detail}</span></figcaption></figure>)}</div>
       </section>
 
-      <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:aurexishanjain@gmail.com">Let&apos;s talk <span>↗</span></a></div></div></section>
+      <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:aurexishanjain@gmail.com">Let&apos;s talk <span>↗︎</span></a></div></div></section>
 
-      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><div className="footer-contact"><a className="footer-email" href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com <span>↗</span></a><a className="footer-phone" href="tel:+919001113380">+91 90011 13380</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
+      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><div className="footer-contact"><a className="footer-email" href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com <span>↗︎</span></a><a className="footer-phone" href="tel:+919001113380">+91 90011 13380</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
   )
 }
