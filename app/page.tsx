@@ -64,7 +64,7 @@ export default function Page() {
   return (
     <main>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Ishan Jain home">IJ<span>.</span></a>
+        <a className="wordmark" href="#top" aria-label="Ishan Jain home"><img src="/ij-logo.jpeg" alt="IJ" /></a>
         <button className="menu-toggle" type="button" aria-expanded={menuOpen} aria-controls="site-nav" onClick={() => setMenuOpen(!menuOpen)}>
           <span>{menuOpen ? 'Close' : 'Menu'}</span><i aria-hidden="true" />
         </button>
@@ -151,7 +151,7 @@ export default function Page() {
 
       <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:aurexishanjain@gmail.com">Let&apos;s talk <span>↗︎</span></a></div></div></section>
 
-      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><div className="footer-contact"><a className="footer-email" href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com <span>↗︎</span></a><a className="footer-phone" href="tel:+919001113380">+91 90011 13380</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
+      <footer id="contact" className="site-footer section-shell"><div className="footer-brand"><img src="/ij-logo.jpeg" alt="IJ" /></div><div className="footer-top"><div className="footer-heading"><span className="footer-kicker">Keep in touch</span><h2>Have a good<br /><em>day.</em></h2><p>For thoughtful conversations, collaborations, or simply to say hello.</p></div><div className="footer-contact"><a className="footer-email" href="mailto:aurexishanjain@gmail.com">aurexishanjain@gmail.com <span>↗︎</span></a><a className="footer-phone" href="tel:+919001113380">+91 90011 13380</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
   )
 }
