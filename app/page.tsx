@@ -53,6 +53,7 @@ const gallery = [
   { title: 'Curiosity in motion', detail: 'Exploring places and finding the story in them', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-BC83DA83-5SpBajf4tbeTdpfepCMYoiRGKD2Er5.jpeg' },
   { title: 'A shared experience', detail: 'The people and places that shape the journey', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6C227CFE-gRi3g01qH9N3v7h4HNqazkW5IRLSYQ.jpeg' },
   { title: 'Arrivals and new beginnings', detail: 'A team, a destination, and a moment to remember', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-4837ED80-efGWmwWbSwDXd4p3oatqeM3Xt7M1nS.jpeg' },
+  { title: 'Golf Junior USA', detail: 'Under 12 · Sport, focus, and early ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
 ]
 
 export default function Page() {
