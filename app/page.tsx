@@ -70,7 +70,7 @@ export default function Page() {
         </button>
         <nav id="site-nav" className={menuOpen ? 'site-nav is-open' : 'site-nav'} aria-label="Main navigation">
           {navItems.map((item) => <a key={item.label} href={item.href} onClick={() => setMenuOpen(false)}>{item.label}</a>)}
-          <a className="nav-arrow" href="mailto:hello@ishanjainindia.com" aria-label="Email Ishan">↗</a>
+          <a className="nav-arrow" href="mailto:aurexishanjain@gmail.com" aria-label="Email Ishan">↗</a>
         </nav>
       </header>
 
@@ -80,7 +80,7 @@ export default function Page() {
         <div className="hero-bottom">
           <div className="hero-profile">
             <figure className="profile-frame">
-              <img className="profile-image" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-907B74E0-xFRNG3Km2dNGvI2VLgu8tv25giXQrx.jpeg" alt="Ishan Jain in a navy suit, white shirt, and red tie" />
+              <img className="profile-image" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-C4EC11BD-cislAJJHHl0MgIVK1BprBCd0oZijHV.jpeg" alt="Professional portrait of Ishan Jain in a navy suit and red tie" />
               <figcaption>Founder / independent builder</figcaption>
             </figure>
             <p className="hero-intro">I&apos;m Ishan Jain, a curious mind working at the intersection of ideas, design, technology, and impact.</p>
@@ -149,9 +149,9 @@ export default function Page() {
         <div className="gallery-grid">{gallery.map((item, index) => <figure className={`gallery-card gallery-card-${index + 1}`} key={item.title}><div className="gallery-image-wrap"><img src={item.image} alt={item.title} loading="lazy" /></div><figcaption><strong>{item.title}</strong><span>{item.detail}</span></figcaption></figure>)}</div>
       </section>
 
-      <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:hello@ishanjainindia.com">Let&apos;s talk <span>↗</span></a></div></div></section>
+      <section className="opportunity section-shell"><div className="section-label">Also / 07</div><div className="opportunity-grid"><h2>Always open to<br /><em>new perspectives.</em></h2><div><p>From the Goethe scholarship to internships and new collaborations, I&apos;m always looking for rooms that make the thinking richer.</p><a className="button-link" href="mailto:aurexishanjain@gmail.com">Let&apos;s talk <span>↗</span></a></div></div></section>
 
-      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><a className="footer-email" href="mailto:hello@ishanjainindia.com">hello@ishanjainindia.com <span>↗</span></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
+      <footer id="contact" className="site-footer section-shell"><div className="footer-top"><h2>Have a good<br /><em>question?</em></h2><a className="footer-email" href="mailto:aurexishanjain@gmail.com">hello@ishanjainindia.com <span>↗</span></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ishan Jain</span><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="#top">Back to top ↑</a></div></div></footer>
     </main>
   )
 }
