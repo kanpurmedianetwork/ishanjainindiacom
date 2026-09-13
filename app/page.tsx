@@ -41,7 +41,7 @@ const community = {
 }
 
 const internships = [
-  { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Coding, debugging, and software development support · May–June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6E03EB9A-G9bW7jTBTBJCrLZ3J2N8rr12P8F0Z8.jpeg' },
+  { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Programming fundamentals, debugging, and software development · May–June 2025', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' },
   { title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' },
   { title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
   { title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' },
