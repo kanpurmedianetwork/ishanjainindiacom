@@ -40,11 +40,10 @@ const community = {
   image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-F86AE9F1-pPLgqG4kQZvEXDwyCKXnfdB63vM38X.jpeg',
 }
 
-const internships = [
-  { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Programming fundamentals, debugging, and software development · May–June 2025', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' },
-  { title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' },
-  { title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
-  { title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' },
+const internshipsByYear = [
+  { year: '2026', items: [{ title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' }] },
+  { year: '2025', items: [{ title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' }, { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Programming fundamentals, debugging, and software development · May–June 2025', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' }] },
+  { year: '2023', items: [{ title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' }] },
 ]
 
 const gallery = [
@@ -124,7 +123,7 @@ export default function Page() {
       <section id="internships" className="internships section-shell section-rule">
         <div className="section-label">Internships / 04</div>
         <div className="section-heading-row"><h2>Learning by<br /><span>doing.</span></h2><p>Practical experiences across technology, manufacturing, finance, and sustainable energy.</p></div>
-        <div className="internship-grid">{internships.map((item) => <article className="internship-card" key={item.organization}><div className="internship-image-wrap"><img src={item.image} alt={`${item.organization} internship certificate`} /><span className="internship-index">Certificate</span></div><div className="internship-card-copy"><span className="writing-date">{item.organization}</span><h3>{item.title}</h3><p>{item.detail}</p></div></article>)}</div>
+        <div className="internship-years">{internshipsByYear.map((group) => <section className="internship-year" key={group.year}><div className="internship-year-heading"><h3>{group.year}</h3><span>{group.items.length} {group.items.length === 1 ? 'experience' : 'experiences'}</span></div><div className="internship-grid">{group.items.map((item) => <article className="internship-card" key={item.organization}><div className="internship-image-wrap"><img src={item.image} alt={`${item.organization} internship certificate`} /><span className="internship-index">Certificate</span></div><div className="internship-card-copy"><span className="writing-date">{item.organization}</span><h3>{item.title}</h3><p>{item.detail}</p></div></article>)}</div></section>)}</div>
       </section>
 
       <section id="community" className="community section-shell section-rule">
