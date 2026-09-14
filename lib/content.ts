@@ -186,13 +186,21 @@ export const sportsGallery = [
 ]
 
 export const gallery = [
+  // Original Gallery Items
+  { title: 'A journey with people', detail: 'Travel, family, and shared moments', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-95748E2B-7BgQjDMNezPWl7nS6ytf84syoYJpCA.jpeg' },
+  { title: 'On the way', detail: 'A quiet moment between destinations', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-9A17D64D-JJ2GmUA0acRueReeRz8f3BXldVR6e4.jpeg' },
+  { title: 'Learning across cultures', detail: 'Community, exchange, and new perspectives', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-E1C4CFBE-yP5Py2J1cLKl3JjksNDzkek4j1Enlp.jpeg' },
+  { title: 'Curiosity in motion', detail: 'Exploring places and finding the story in them', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-BC83DA83-5SpBajf4tbeTdpfepCMYoiRGKD2Er5.jpeg' },
+  { title: 'A shared experience', detail: 'The people and places that shape the journey', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6C227CFE-gRi3g01qH9N3v7h4HNqazkW5IRLSYQ.jpeg' },
+  { title: 'Arrivals and new beginnings', detail: 'A team, a destination, and a moment to remember', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-4837ED80-efGWmwWbSwDXd4p3oatqeM3Xt7M1nS.jpeg' },
+  { title: 'Golf Junior USA', detail: 'Under 12 · Sport, focus, and early ambition', group: 'Sports & Ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
+  // Profile Document Gallery Additions
+  { title: 'Under 10 Junior School Cricket Team', detail: 'Modern School Cricket Team representation', group: 'Sports & Ambition', image: '/images/cricket-under10.png' },
   { title: 'Goethe Exchange Program, Germany', detail: 'Three-week cultural and educational exchange in Germany', group: 'Goethe Exchange', image: '/images/goethe-germany-2.png' },
   { title: 'Modern School Student Council', detail: 'House Captain Leadership & Badge Ceremony', group: 'Leadership', image: '/images/house-captain-1.jpg' },
   { title: 'Vyom Astronomy Club', detail: 'Directing STEM & Astronomy Programs', group: 'Leadership', image: '/images/vyom-astronomy.png' },
-  { title: 'Rooh Foundation Community Teaching', detail: 'Teaching underprivileged children across 3 years', group: 'Community', image: '/images/rooh-volunteer-1.png' },
-  { title: 'Under 10 Junior School Cricket Team', detail: 'School Cricket Team lineup', group: 'Sports', image: '/images/cricket-under10.png' },
-  { title: 'Golf Junior USA', detail: 'Under 12 · Sport, focus, and early ambition', group: 'Sports', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
-  { title: 'Learning across cultures', detail: 'Exchange, perspective, and team moments', group: 'Goethe Exchange', image: '/images/goethe-germany-5.jpg' },
+  { title: 'Rooh Foundation Community Teaching', detail: 'Teaching underprivileged children across 3 years', group: 'Community Service', image: '/images/rooh-volunteer-1.png' },
+  { title: 'Exchange Culture & Team', detail: 'Learning, perspective, and team moments in Germany', group: 'Goethe Exchange', image: '/images/goethe-germany-5.jpg' },
 ]
 
 export const portrait = '/images/ishan-jain.jpeg'
