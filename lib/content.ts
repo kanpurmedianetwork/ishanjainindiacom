@@ -9,34 +9,54 @@ export const navItems = [
 ]
 
 export const projects = [
-  { number: '01', title: 'Aurex', type: 'Product · Strategy · Design', text: 'A digital product exploring how thoughtful systems can make ambitious ideas easier to understand, use, and share.', tag: 'Featured work' },
-  { number: '02', title: 'Water cleaning project', type: 'Research · Sustainability', text: 'A practical exploration into accessible water purification, bringing together research, prototyping, and social impact.', tag: 'Independent research' },
+  { number: '01', title: 'Aurex', type: 'Product · Strategy · Design', text: 'An e-commerce platform for my mother’s jewelry business, rethinking an offline brand for digital growth and a wider audience.', tag: 'Featured work' },
+  { number: '02', title: 'Water cleaning project', type: 'Research · Sustainability', text: 'A water-cleaning system designed to restore water to more natural conditions through layered filtration, detectors, and controlled flow.', tag: 'Independent research' },
 ]
 
 export const writing = [
-  { date: 'Published research · IJSREM · Feb 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: 'An accessible study of quantum transitions, atomic clocks, relativity corrections, and the precision timing that makes modern GPS possible. DOI: 10.55041/IJSREM56653.', href: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20Published%20Paper-74D26925-lsF329E1zZkG274Wyhl4r5QCL5Cj8s.pdf' },
-  { date: 'Research paper · Secondary data analysis · 2009–2026', title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit?", text: "An analysis of whether higher gold customs duties reduce India's recorded current account deficit or shift the deficit into informal channels, with policy recommendations on smuggling, gold monetization, and financial inclusion.", href: '/research-paper-gold-duty.pdf' },
-  { date: 'Field notes', title: 'Learning in public', text: 'Notes from working across design, technology, and the questions that sit between them.', href: '/contact' },
+  { date: 'Published research · IJSREM · February 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: "A study of atomic clocks, quantum transitions, Einstein's theory of relativity, and the future of quantum timing technologies.", href: 'https://ijsrem.com/download/how-are-quantum-principles-used-in-gps-systems-and-atomic-clocks-to-achieve-high-precision/' },
+  { date: 'Economics research · Grade XII · 2026', title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit?", text: "An analysis of whether higher gold duties reduce India's recorded CAD or shift the deficit into informal channels.", href: 'https://ijefm.co.in/v9i7/39.php' },
+]
+
+export const academicDistinction = { title: 'Goethe Scholarship – Germany', date: 'Grade XI · 2025', text: 'Selected by Modern School through the Goethe-Institut (Max Mueller Bhavan) for a fully funded three-week cultural and educational exchange programme in Germany.', href: '/goethe-scholarship' }
+
+export const leadership = [
+  { title: 'House Captain – Student Council', detail: 'Modern School, Vasant Vihar · Grade XII · 2026–2027' },
+  { title: 'Director – Vyom Astronomy Club', detail: 'Grades X–XI · Led astronomy programmes, workshops, and activities that encouraged scientific curiosity.' },
 ]
 
 export const internshipsByYear = [
-  { year: '2026', items: [{ title: 'Clean Energy & Sustainability', organization: 'CleanMax Enviro Energy Solutions', detail: 'Renewable energy, sustainability, and real-world clean energy applications · June 2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' }] },
-  { year: '2025', items: [{ title: 'Equity Research', organization: 'Winvest AIF', detail: 'Market research, portfolio tracking, and investment fundamentals · 2025–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' }, { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Programming fundamentals, debugging, and software development · May–June 2025', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' }] },
-  { year: '2023', items: [{ title: 'Manufacturing & Operations', organization: 'Shreeji Impex, Jaipur', detail: 'Production processes, workflow management, and factory operations · June 2023', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' }] },
+  { year: '2026', items: [
+    { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: 'Remote · Texas, USA · 20 March – 20 April 2026 · A one-month international internship gaining exposure to professional software development in a global work environment.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' },
+    { title: 'Sustainability Intern', organization: 'CleanMax Enviro Energy Solutions', detail: '1–30 June 2026 · Practical exposure to renewable energy solutions and sustainability initiatives.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D57DEFE6-LchFjuY7A83hOeYyLdo1GQyelgyjgf.jpeg' },
+    { title: 'Investment Internship', organization: 'Winvest Investment Internship', detail: 'Stocks & Shares · 13–31 March 2026 · A structured programme focused on stock markets, financial analysis, and portfolio management.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
+  ] },
+  { year: '2025', items: [
+    { title: 'Junior Coder', organization: 'Excelstar Technologies', detail: '18 May – 30 June 2025 · Practical exposure to software development and programming fundamentals.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-02DCB13D-Bb3uvivq6A7bCV13pcHEo9DUgPeVLV.jpeg' },
+    { title: 'Investment Internship', organization: 'Winvest Investment Internship', detail: 'Stocks & Shares · 30 December 2025 – 11 January 2026 · A structured programme focused on stock markets, financial analysis, and portfolio management.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-D596404F-dWvaJN1cH9RYV1jrcbMQhqQfOKOW3N.jpeg' },
+  ] },
+  { year: '2023', items: [{ title: 'Product Engineering Intern', organization: 'Sree Ji Impex', detail: 'Jaipur · 1–30 June 2023 · Exposure to metallurgy, jewellery manufacturing processes, and commercial production under the Production Manager.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-1BCB1D05-1YPyjoBfoeFmotyvcYI0DDqNBrQTfu.jpeg' }] },
 ]
 
 export const gallery = [
+  { title: 'Under 10 Junior School Cricket Team', detail: 'Sport, teamwork, and an early lesson in discipline', group: 'Sport & early ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
+  { title: 'Golf', detail: 'Patience, focus, and steady progress', group: 'Sport & early ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
   { title: 'A journey with people', detail: 'Travel, family, and shared moments', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-95748E2B-7BgQjDMNezPWl7nS6ytf84syoYJpCA.jpeg' },
-  { title: 'On the way', detail: 'A quiet moment between destinations', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-9A17D64D-JJ2GmUA0acRueReeRz8f3BXldVR6e4.jpeg' },
   { title: 'Learning across cultures', detail: 'Community, exchange, and new perspectives', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-E1C4CFBE-yP5Py2J1cLKl3JjksNDzkek4j1Enlp.jpeg' },
-  { title: 'Curiosity in motion', detail: 'Exploring places and finding the story in them', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-BC83DA83-5SpBajf4tbeTdpfepCMYoiRGKD2Er5.jpeg' },
-  { title: 'A shared experience', detail: 'The people and places that shape the journey', group: 'Travel & shared moments', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-6C227CFE-gRi3g01qH9N3v7h4HNqazkW5IRLSYQ.jpeg' },
-  { title: 'Arrivals and new beginnings', detail: 'A team, a destination, and a moment to remember', group: 'Learning & culture', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-4837ED80-efGWmwWbSwDXd4p3oatqeM3Xt7M1nS.jpeg' },
-  { title: 'Golf Junior USA', detail: 'Under 12 · Sport, focus, and early ambition', group: 'Sport & early ambition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-92581BB5-VDvEkenzybJCtjDbbHGlLIJiYxgbz4.jpeg' },
 ]
 
-export const community = { title: 'Education & mentorship volunteer', detail: 'Long-term volunteer mentor supporting underprivileged children through thoughtful lessons, continuity, and relationship-led learning · 2023–2026', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-F86AE9F1-pPLgqG4kQZvEXDwyCKXnfdB63vM38X.jpeg' }
-
+export const community = { title: 'Education & mentorship volunteer', detail: 'Rooh Foundation · Grades IX–XI · Volunteered across three consecutive years, teaching underprivileged children and supporting educational initiatives.', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-F86AE9F1-pPLgqG4kQZvEXDwyCKXnfdB63vM38X.jpeg', links: ['https://www.instagram.com/reel/DY4HGYSzbLQ/?igsh=aTR4OXg1b3Q1NHpu', 'https://www.instagram.com/reel/DY1SiP9Ta9Z/?igsh=M2E4ZzNtazlzcGZz'] }
+export const communitySecond = { title: 'Volunteer', organization: 'Rotary Divyang Kendra', detail: 'Grade XI · Supported camps for the fitment and distribution of artificial limbs and assistive aids, helping patients and the management team.' }
 export const portrait = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-C4EC11BD-cislAJJHHl0MgIVK1BprBCd0oZijHV.jpeg'
-
 export const galleryGroups = [...new Set(gallery.map((item) => item.group))]
+
+export const aboutSections = [
+  { title: 'About', paragraphs: ["I’ve always been someone who likes building ideas, not just thinking about them. A lot of my work has come from noticing small problems and trying to figure out how they could work differently, whether that’s in technology, sustainability, or everyday systems.", 'One of the ideas I explored early on was a water-cleaning system designed to restore water to more natural conditions using layered filtration, detectors, and controlled flow. It was my first attempt at thinking about how machines could interact with natural environments in a more responsive way, and it pushed me to go beyond theory and actually design how something like that could work.', 'At the same time, I’ve been working on Aurex, where I’m building an e-commerce platform for my mother’s jewelry business. For me, both of these are part of the same process: figuring things out by building them.', 'Outside of this, I’ve spent time teaching underprivileged children and working with NGOs. Most of what I do starts small — an idea, a question, or something that doesn’t feel efficient — and then turns into something I can actually work on.'] },
+  { title: 'Vision for Future', paragraphs: ['I envision a future where I can combine innovation, technology, and entrepreneurship to build ideas that create real-world impact. I enjoy exploring how businesses and technology can work together to solve problems, and I hope to eventually build ventures that are both meaningful and scalable.', 'I also want to grow into someone who can give back through philanthropy and community-driven work.'] },
+  { title: 'Leadership philosophy and problem-solving mindset', paragraphs: ['I believe leadership is less about being the loudest person in a group and more about taking initiative, staying dependable, and helping people work together effectively. I lead by listening first, understanding different perspectives, and contributing through ideas and consistent effort.', 'My problem-solving mindset is based on curiosity and adaptability. I enjoy breaking down problems, exploring how things work, and finding practical ways to improve them.'] },
+  { title: 'Hobbies and personality', paragraphs: ['I enjoy following technology and innovation, reading about emerging ideas in science, business, engines, and futuristic technology, and understanding how systems work behind the scenes. I also enjoy astronomy, golf, and cricket.', 'Personality-wise, I’m naturally more quiet and observant than outspoken. I prefer listening, thinking deeply, and working consistently while staying open to new perspectives and experiences.'] },
+]
+
+export const interests = ['Innovation', 'Entrepreneurship', 'Artificial intelligence', 'Sustainability', 'Economics']
+export const researchLinks = { goldPdf: 'https://ijefm.co.in/v9i7/Doc/39.pdf', goldDoi: 'https://doi.org/10.47191/jefms/v9-i7-39', scholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BwG45CAAAAAJ&sortby=pubdate&citation_for_view=BwG45CAAAAAJ:t7zJ5fGR-2UC' }
+export const researchPaper = { title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', detail: "Author · International Journal of Scientific Research in Engineering and Management (IJSREM) · February 2026", text: "Explores atomic clocks, quantum transitions, Einstein's theory of relativity, and future developments in quantum timing technologies.", href: 'https://ijsrem.com/download/how-are-quantum-principles-used-in-gps-systems-and-atomic-clocks-to-achieve-high-precision/' }
