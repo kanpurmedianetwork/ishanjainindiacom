@@ -1,0 +1,3 @@
+import { PageShell, SectionLabel } from '@/components/site-shell'
+import { writing } from '@/lib/content'
+export default function WritingPage() { return <PageShell><main><section className="interior section-shell"><SectionLabel>Writing / 03</SectionLabel><div className="section-heading-row"><h1>Thoughts worth<br /><span>sharing.</span></h1><p>Research, reflections, and observations from an ongoing practice.</p></div><div className="writing-list">{writing.map((item) => <a className="writing-item" href={item.href} key={item.title}><div><span className="writing-date">{item.date}</span><h2>{item.title}</h2></div><p>{item.text}</p><span className="writing-arrow">↗︎</span></a>)}</div></section></main></PageShell> }
