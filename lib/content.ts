@@ -10,7 +10,7 @@ export const navItems = [
 
 export const projects = [
   { number: '01', title: 'Aurex', type: 'Product · Strategy · Design', text: 'An e-commerce platform for my mother’s jewelry business, rethinking an offline brand for digital growth and a wider audience.', tag: 'Featured work' },
-  { number: '02', title: 'Water cleaning project', type: 'Research · Sustainability', text: 'A water-cleaning system designed to restore water to more natural conditions through layered filtration, detectors, and controlled flow.', tag: 'Independent research' },
+  { number: '02', title: 'Interparticle Water Cleaning Machine', type: 'CBSE Research Project · Science · Sustainability', text: 'An original portable purification concept exploring interparticle spaces, kinetic energy, viscosity, filtration, pH sensing, and visible waste separation to address microplastic pollution.', tag: 'Original innovation', href: 'https://blobs.vusercontent.net/blob/Interparticle%20Water%20Cleaning%20Machine-4F185C09-bA6qwV5pRYFVT8oIs2hMdoWfbMIwLS.pdf' },
 ]
 
 export const writing = [
