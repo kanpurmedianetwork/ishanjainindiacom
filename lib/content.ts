@@ -41,18 +41,15 @@ export const writing = [
     ]
   },
   {
-    category: 'Economics & Public Policy',
-    date: 'Independent Research Project | Grade XII | 2026',
+    category: 'Economics & Financial Markets',
+    date: 'Independent Research Project · 2025–2026',
     author: 'Ishan Jain',
-    title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit, or Does It Merely Shift the Deficit from Official Imports to Informal Channels?",
-    text: "An independent policy research project analyzing India's gold import duties and their impact on the Current Account Deficit (CAD) using official economic data and evaluating formal vs informal channel shifts.",
-    href: 'https://ijefm.co.in/v9i7/39.php',
-    image: '/research-paper-gold-duty.pdf',
+    title: 'To what extent did the change in US 10-year bond yields between 2025–2026 affect the performance of the Indian stock market, as measured by the Nifty 50 index and foreign portfolio investment flows?',
+    text: 'An empirical study investigating the correlation between changes in US Treasury 10-year yields and Indian stock market performance (Nifty 50 daily returns) alongside USD/INR exchange rate, Brent Crude oil prices, VIX, and S&P 500 returns using multiple linear regressions.',
+    href: '/research-paper-us-bond-yields.pdf',
+    image: '/research-paper-us-bond-yields.pdf',
     links: [
-      { label: 'Article Link (IJEFM)', href: 'https://ijefm.co.in/v9i7/39.php' },
-      { label: 'Article PDF Link', href: 'https://ijefm.co.in/v9i7/Doc/39.pdf' },
-      { label: 'Article DOI Link', href: 'https://doi.org/10.47191/jefms/v9-i7-39' },
-      { label: 'Google Scholar Profile', href: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BwG45CAAAAAJ&sortby=pubdate&citation_for_view=BwG45CAAAAAJ:t7zJ5fGR-2UC' }
+      { label: 'Read Research Paper (PDF)', href: '/research-paper-us-bond-yields.pdf' }
     ]
   }
 ]
