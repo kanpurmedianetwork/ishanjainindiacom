@@ -40,7 +40,7 @@ export default function GalleryPage() {
                   {gallery
                     .filter((item) => item.group === group)
                     .map((item) => (
-                      <figure className="gallery-card" key={item.title}>
+                      <figure className="gallery-card" key={item.image}>
                         <div className="gallery-image-wrap">
                           <img src={item.image} alt={item.title} loading="lazy" />
                         </div>

@@ -201,6 +201,9 @@ export const gallery = [
   { title: 'Vyom Astronomy Club', detail: 'Directing STEM & Astronomy Programs', group: 'Leadership', image: '/images/vyom-astronomy.png' },
   { title: 'Rooh Foundation Community Teaching', detail: 'Teaching underprivileged children across 3 years', group: 'Community Service', image: '/images/rooh-volunteer-1.png' },
   { title: 'Exchange Culture & Team', detail: 'Learning, perspective, and team moments in Germany', group: 'Goethe Exchange', image: '/images/goethe-germany-5.jpg' },
+  // CBSE Innovative Ideas Competition Additions
+  { title: 'CBSE Innovative Ideas Competition', detail: 'INSPIRE-MANAK Scheme 2026–27', group: 'CBSE Innovative Ideas Competition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-67815CEA-AmZgh30IcF7sU27ge1UjvcEX0UjoEa.jpeg' },
+  { title: 'CBSE Innovative Ideas Competition', detail: 'INSPIRE-MANAK Scheme 2026–27', group: 'CBSE Innovative Ideas Competition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-37229962-GT0hrAIRiqhDe5VUZAeZIlUrRq115U.jpeg' },
 ]
 
 export const portrait = '/images/ishan-jain.jpeg'
