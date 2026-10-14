@@ -15,7 +15,7 @@ export const projects = [
 
 export const writing = [
   { date: 'Published research · IJSREM · February 2026', title: 'How are Quantum Principles Used in GPS Systems and Atomic Clocks to Achieve High Precision?', text: "A study of atomic clocks, quantum transitions, Einstein's theory of relativity, and the future of quantum timing technologies.", href: 'https://ijsrem.com/download/how-are-quantum-principles-used-in-gps-systems-and-atomic-clocks-to-achieve-high-precision/' },
-  { date: 'Economics research · Grade XII · 2026', title: "Does a Higher Basic Customs Duty on Gold Reduce India's Current Account Deficit?", text: "An analysis of whether higher gold duties reduce India's recorded CAD or shift the deficit into informal channels.", href: 'https://ijefm.co.in/v9i7/39.php' },
+  { date: 'CBSE research paper · 2025–2026', title: 'To what extent did the change in US 10-year bond yields between 2025–2026 affect the performance of the Indian stock market, as measured by the Nifty 50 index and foreign portfolio investment flows?', text: 'An empirical study of US Treasury yields, Nifty 50 returns, USD/INR, Brent crude, VIX, and S&P 500 returns using daily financial-market data and regression analysis.', href: 'https://blobs.vusercontent.net/blob/Research%20Paper%20By%20Ishan%20Jain1-096F309D-ZGo0Jr3MpNApGU8boEUpIm3XSHTcpO.pdf' },
 ]
 
 export const academicDistinction = { title: 'Goethe Scholarship – Germany', date: 'Grade XI · 2025', text: 'Selected by Modern School through the Goethe-Institut (Max Mueller Bhavan) for a fully funded three-week cultural and educational exchange programme in Germany.', href: '/goethe-scholarship' }
