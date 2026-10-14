@@ -4,7 +4,26 @@ import { community, gallery, internshipsByYear, portrait, projects, writing } fr
 
 export default function HomePage() {
   return <PageShell><main>
-    <section className="hero section-shell"><div className="eyebrow">Independent thinker / builder / learner</div><h1>Making sense of<br /><em>what&apos;s next.</em></h1><div className="hero-bottom"><div className="hero-profile"><figure className="profile-frame"><img className="profile-image" src={portrait} alt="Professional portrait of Ishan Jain in a navy suit and red tie" /><figcaption>Founder / independent builder</figcaption></figure><div className="hero-copy"><p className="hero-intro">Hi, I&apos;m <strong>Ishan Jain</strong>.</p><p className="hero-subintro">A curious mind working at the intersection of ideas, design, technology, and impact.</p></div></div><Link className="circle-link" href="#about" aria-label="Explore Ishan Jain&apos;s work">↓</Link></div><div className="hero-mark" aria-hidden="true">+</div></section>
+    <section className="hero section-shell">
+      <div className="hero-grid">
+        <div className="hero-text">
+          <div className="eyebrow">Independent thinker / builder / learner</div>
+          <h1>Making sense of<br /><em>what&apos;s next.</em></h1>
+          <div className="hero-copy">
+            <p className="hero-intro">Hi, I&apos;m <strong>Ishan Jain</strong>.</p>
+            <p className="hero-subintro">A curious mind working at the intersection of ideas, design, technology, and impact.</p>
+          </div>
+          <Link className="circle-link" href="#about" aria-label="Explore Ishan Jain&apos;s work">↓</Link>
+        </div>
+        <div className="hero-media">
+          <figure className="profile-frame">
+            <img className="profile-image" src={portrait} alt="Professional portrait of Ishan Jain in a navy suit and red tie" />
+            <figcaption>Founder / independent builder</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div className="hero-mark" aria-hidden="true">+</div>
+    </section>
 
     <section id="about" className="about section-shell section-rule"><SectionLabel>About / 01</SectionLabel><div className="about-content"><h2>Curiosity is<br /><span>a way of life.</span></h2><div className="about-copy"><p>I&apos;m interested in the space between disciplines — where ideas become useful, and where thoughtful work can create lasting impact.</p><p>From building products and researching questions to learning from people and places, I try to stay open, rigorous, and ready to begin again.</p><Link className="inline-link" href="/about">More about me <span>↗︎</span></Link></div></div></section>
 
