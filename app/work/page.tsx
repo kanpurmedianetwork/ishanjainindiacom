@@ -28,9 +28,15 @@ export default function WorkPage() {
                   <h2>{project.title}</h2>
                   <p className="project-type">{project.type}</p>
                   <p>{project.text}</p>
-                  <Link href="/contact" className="inline-link">
-                    Connect on project <span>↗︎</span>
-                  </Link>
+                  {project.href ? (
+                    <a href={project.href} target="_blank" rel="noreferrer" className="inline-link">
+                      Read project PDF <span>↗︎</span>
+                    </a>
+                  ) : (
+                    <Link href="/contact" className="inline-link">
+                      Connect on project <span>↗︎</span>
+                    </Link>
+                  )}
                 </div>
               </article>
             ))}

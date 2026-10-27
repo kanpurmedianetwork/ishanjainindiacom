@@ -22,7 +22,8 @@ export const projects = [
     title: 'Water Cleaning System', 
     type: 'Research · Engineering · Sustainability', 
     text: 'Designed a water-cleaning system to restore water to natural conditions using layered filtration, detectors, and controlled flow interaction with natural environments.', 
-    tag: 'Independent Engineering' 
+    tag: 'Independent Engineering',
+    href: 'https://blobs.vusercontent.net/blob/Interparticle%20Water%20Cleaning%20Machine-4F185C09-bA6qwV5pRYFVT8oIs2hMdoWfbMIwLS.pdf'
   },
 ]
 
@@ -201,9 +202,10 @@ export const gallery = [
   // CBSE Innovative Ideas Competition Additions
   { title: 'CBSE Innovative Ideas Competition', detail: 'INSPIRE-MANAK Scheme 2026–27', group: 'CBSE Innovative Ideas Competition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-67815CEA-AmZgh30IcF7sU27ge1UjvcEX0UjoEa.jpeg' },
   { title: 'CBSE Innovative Ideas Competition', detail: 'INSPIRE-MANAK Scheme 2026–27', group: 'CBSE Innovative Ideas Competition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-37229962-GT0hrAIRiqhDe5VUZAeZIlUrRq115U.jpeg' },
+  // Commendable Mentions
+  { title: 'Commendable Mention — Ishan Jain', detail: 'Research on quantum principles in GPS systems and atomic clocks published in the International Journal of Scientific Research in Engineering and Management.', group: 'Commendable Mentions', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-9E70CE60-ZgBSCpdpwodp1LBQFwAPTsgEAcaVLn.jpeg' },
 ]
 
 export const portrait = '/images/ishan-jain.jpeg'
 
 export const galleryGroups = [...new Set(gallery.map((item) => item.group))]
-
