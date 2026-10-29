@@ -15,7 +15,9 @@ export const projects = [
     title: 'Aurex', 
     type: 'Product · E-Commerce · Strategy', 
     text: 'Building an e-commerce platform for my mother’s jewelry business to take an established offline brand and grow it digitally for a wider audience.', 
-    tag: 'Featured Venture' 
+    tag: 'Featured Venture',
+    href: 'https://www.aurexjewellery.com',
+    linkLabel: 'Visit aurexjewellery.com',
   },
   { 
     number: '02', 
@@ -23,7 +25,8 @@ export const projects = [
     type: 'Research · Engineering · Sustainability', 
     text: 'Designed a water-cleaning system to restore water to natural conditions using layered filtration, detectors, and controlled flow interaction with natural environments.', 
     tag: 'Independent Engineering',
-    href: 'https://blobs.vusercontent.net/blob/Interparticle%20Water%20Cleaning%20Machine-4F185C09-bA6qwV5pRYFVT8oIs2hMdoWfbMIwLS.pdf'
+    href: 'https://blobs.vusercontent.net/blob/Interparticle%20Water%20Cleaning%20Machine-4F185C09-bA6qwV5pRYFVT8oIs2hMdoWfbMIwLS.pdf',
+    linkLabel: 'Read project PDF',
   },
 ]
 

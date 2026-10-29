@@ -20,17 +20,43 @@ export default function WorkPage() {
                   <span>{project.number}</span>
                   <span>{project.tag}</span>
                 </div>
-                <div className="project-visual">
-                  <div className="visual-cross">+</div>
-                  <span>{project.title}</span>
-                </div>
+                {project.href ? (
+                  <a
+                    href={project.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-visual project-visual-link"
+                    aria-label={`Open ${project.title}`}
+                  >
+                    <div className="visual-cross">+</div>
+                    <span>{project.title}</span>
+                  </a>
+                ) : (
+                  <div className="project-visual">
+                    <div className="visual-cross">+</div>
+                    <span>{project.title}</span>
+                  </div>
+                )}
                 <div className="project-info">
-                  <h2>{project.title}</h2>
+                  <h2>
+                    {project.href ? (
+                      <a
+                        href={project.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="project-title-link"
+                      >
+                        {project.title}
+                      </a>
+                    ) : (
+                      project.title
+                    )}
+                  </h2>
                   <p className="project-type">{project.type}</p>
                   <p>{project.text}</p>
                   {project.href ? (
                     <a href={project.href} target="_blank" rel="noreferrer" className="inline-link">
-                      Read project PDF <span>↗︎</span>
+                      {project.linkLabel || 'View project'} <span>↗︎</span>
                     </a>
                   ) : (
                     <Link href="/contact" className="inline-link">
