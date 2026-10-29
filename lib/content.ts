@@ -207,6 +207,7 @@ export const gallery = [
   { title: 'CBSE Innovative Ideas Competition', detail: 'INSPIRE-MANAK Scheme 2026–27', group: 'CBSE Innovative Ideas Competition', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-37229962-GT0hrAIRiqhDe5VUZAeZIlUrRq115U.jpeg' },
   // Commendable Mentions
   { title: 'Commendable Mention — Ishan Jain', detail: 'Research on quantum principles in GPS systems and atomic clocks published in the International Journal of Scientific Research in Engineering and Management.', group: 'Commendable Mentions', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-9E70CE60-ZgBSCpdpwodp1LBQFwAPTsgEAcaVLn.jpeg' },
+  { title: 'Commendable Mention — Felicitation Video', detail: 'Announcement video recognizing Ishan Jain for his published research on quantum principles in GPS systems and atomic clocks.', group: 'Commendable Mentions', image: '/videos/commendable-mention-video.mp4', isVideo: true },
 ]
 
 export const portrait = '/images/ishan-jain.jpeg'

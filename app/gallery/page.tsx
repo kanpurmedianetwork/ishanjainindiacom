@@ -42,7 +42,19 @@ export default function GalleryPage() {
                     .map((item) => (
                       <figure className="gallery-card" key={item.image}>
                         <div className="gallery-image-wrap">
-                          <img src={item.image} alt={item.title} loading="lazy" />
+                          {item.isVideo || item.image?.endsWith('.mp4') ? (
+                            <video
+                              src={item.image}
+                              controls
+                              playsInline
+                              preload="metadata"
+                              className="gallery-video"
+                            >
+                              Your browser does not support the video tag.
+                            </video>
+                          ) : (
+                            <img src={item.image} alt={item.title} loading="lazy" />
+                          )}
                         </div>
                         <figcaption>
                           <strong>{item.title}</strong>
