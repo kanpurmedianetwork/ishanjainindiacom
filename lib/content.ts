@@ -210,6 +210,6 @@ export const gallery = [
   { title: 'Commendable Mention — Felicitation Video', detail: 'Announcement video recognizing Ishan Jain for his published research on quantum principles in GPS systems and atomic clocks.', group: 'Commendable Mentions', image: '/videos/commendable-mention-video.mp4', isVideo: true },
 ]
 
-export const portrait = '/images/ishan-jain.jpeg'
+export const portrait = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-7C406D76-Z5k25oq21915BPp9UKN64xIN8M4o0a.jpeg'
 
 export const galleryGroups = [...new Set(gallery.map((item) => item.group))]
