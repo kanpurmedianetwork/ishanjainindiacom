@@ -77,9 +77,10 @@ export const goetheScholarship = {
 
 export const leadership = [
   {
-    role: 'House Captain – Student Council',
-    institution: 'Modern School, Vasant Vihar | Grade XII (2026–2027)',
-    detail: 'Elected Student Council House Captain, responsible for school house leadership, event coordination, student representation, and building house spirit.',
+    role: 'House Captain – Razia Sultan House',
+    institution: 'Modern School, Vasant Vihar | Class XI-A · 2026–2027',
+    detail: 'Appointed House Captain for the 2026–27 academic session, entrusted with providing leadership, coordinating house activities, and encouraging active student participation.',
+    certificate: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20House%20Captian%20Razia%20Sultan%20House-1CB1835E-gzDhFUrpcY1BOwFm4pGluzTL8HslgD.pdf',
     images: ['/images/house-captain-1.jpg', '/images/house-captain-2.jpg', '/images/house-captain-3.png']
   },
   {
