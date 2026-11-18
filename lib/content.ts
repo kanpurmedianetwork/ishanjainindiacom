@@ -77,9 +77,10 @@ export const goetheScholarship = {
 
 export const leadership = [
   {
-    role: 'House Captain – Student Council',
-    institution: 'Modern School, Vasant Vihar | Grade XII (2026–2027)',
-    detail: 'Elected Student Council House Captain, responsible for school house leadership, event coordination, student representation, and building house spirit.',
+    role: 'House Captain – Razia Sultan House',
+    institution: 'Modern School, Vasant Vihar | Class XI-A · 2026–2027',
+    detail: 'Appointed House Captain for the 2026–27 academic session, entrusted with providing leadership, coordinating house activities, and encouraging active student participation.',
+    certificate: 'https://blobs.vusercontent.net/blob/Ishan%20Jain%20House%20Captian%20Razia%20Sultan%20House-1CB1835E-gzDhFUrpcY1BOwFm4pGluzTL8HslgD.pdf',
     images: ['/images/house-captain-1.jpg', '/images/house-captain-2.jpg', '/images/house-captain-3.png']
   },
   {
@@ -210,6 +211,6 @@ export const gallery = [
   { title: 'Commendable Mention — Felicitation Video', detail: 'Announcement video recognizing Ishan Jain for his published research on quantum principles in GPS systems and atomic clocks.', group: 'Commendable Mentions', image: '/videos/commendable-mention-video.mp4', isVideo: true },
 ]
 
-export const portrait = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-156EF4BF-wE3RRqL5L3YY3xRHGINHDVCdYSNX0G.jpeg'
+export const portrait = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Image-3FA85B86-alX7SP5KwuLsmO705teDoYK922JK8r.jpeg'
 
 export const galleryGroups = [...new Set(gallery.map((item) => item.group))]

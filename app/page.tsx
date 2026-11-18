@@ -17,7 +17,7 @@ export default function HomePage() {
         </div>
         <div className="hero-media">
           <figure className="profile-frame">
-            <img className="profile-image" src={portrait} alt="Full-length portrait of Ishan Jain in a black suit with a gold pocket square" />
+            <img className="profile-image" src={portrait} alt="Portrait of Ishan Jain in a dark suit, light striped shirt, and red tie against a blue backdrop" />
             <figcaption>Founder / independent builder</figcaption>
           </figure>
         </div>

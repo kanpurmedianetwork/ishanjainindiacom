@@ -77,6 +77,11 @@ export default function AboutPage() {
                   <span className="leadership-inst">{item.institution}</span>
                 </div>
                 <p>{item.detail}</p>
+                {'certificate' in item && item.certificate && (
+                  <a className="inline-link" href={item.certificate} target="_blank" rel="noreferrer">
+                    View appointment certificate <span>↗︎</span>
+                  </a>
+                )}
                 {item.images && item.images.length > 0 && (
                   <div className="leadership-images">
                     {item.images.map((imgSrc, imgIdx) => (
