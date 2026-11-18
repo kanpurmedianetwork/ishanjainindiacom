@@ -63,7 +63,10 @@ button { font: inherit; }
 .leadership-header h3 { margin: 0; font-size: 24px; font-weight: 400; letter-spacing: -.04em; }
 .leadership-inst { color: var(--blue); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .leadership-images { display: flex; gap: 14px; margin-top: 12px; flex-wrap: wrap; }
-.leadership-images img { max-width: 180px; height: 140px; object-fit: contain; background: var(--deep); border: 1px solid var(--line); border-radius: 4px; padding: 4px; }
+  .leadership-images img { max-width: 180px; height: 140px; object-fit: contain; background: var(--deep); border: 1px solid var(--line); border-radius: 4px; padding: 4px; }
+  .leadership-certificate { width: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: 4px; background: var(--background); }
+  .leadership-certificate iframe { display: block; width: 100%; height: min(72vh, 760px); min-height: 520px; border: 0; }
+
 
 /* Research & Writing Expanded */
 .writing-list-expanded { display: flex; flex-direction: column; gap: 48px; margin-top: 60px; }
